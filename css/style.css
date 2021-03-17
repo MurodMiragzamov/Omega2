@@ -8,13 +8,55 @@
 html{
     scroll-behavior: smooth;
 }
+
+.girl{
+   position: relative;
+  
+}
+.oval39{
+    display: flex;
+    flex-direction: column;
+    right: 50px;
+    color: #fff;
+    position: absolute;
+    top: 480px;
+    width: 220px;
+    height: 220px;
+    background: #5454D4;
+    border-radius: 50%;
+    box-shadow: 0px 52px 54px rgba(65, 62, 101, 0.296766);
+}
+.simple{
+  
+    margin: 0 auto;
+    width: 50px;
+    height: 50px;
+    margin-top: 15px;
+   
+}
+.con{
+    padding-left: 70px;
+}
+.h39{
+    font-size: 70px;
+    padding-left: 40px;
+}
+
+.bgg{
+    z-index: -1;
+  position: absolute;
+  width: 1615px;
+height: 877px;
+}
 .nav{
+   
    display: flex;
     margin-left: 30px;
     padding-top: 15px;
 
 }
 .container{
+   
 width: 1200px;
 margin: 0 auto;
 }
@@ -30,4 +72,66 @@ margin: 0 auto;
 }
 .nav-link:hover{
     color: #F04037;
+}
+.clr{
+    clear: both;
+}
+.nav-h2{
+    margin-top: 200px;
+    color: #19191B;
+    width: 580px;
+    font-size: 60px;
+    line-height: 70px;
+    margin-bottom: 50px;
+}
+.nav-p{
+    color: #696871;
+    font-size: 21px;
+    line-height: 39px;
+    width: 570px;
+    margin-bottom: 50px;
+}
+.input1{
+    padding: 10px 0;
+    border: 1px solid #fff;
+    font-size: 18px;
+    color: #696871;
+    padding-left: 50px;
+    padding-right: 124px;
+    
+}
+.input-div{
+    background: #fff;
+    border: 1px solid #EAE9F2;
+    border-radius: 10px;
+    padding: 5px;
+    position: relative;
+    width: 563px;
+    padding-bottom: 8px;
+    padding-top: 8px;
+}
+.iicon{
+    position: absolute;
+    left: 15px;
+    top:23px;
+}
+.input-link{
+   
+}
+.mac{
+    position: absolute;
+    right: 450px;
+    top: 90px;
+
+}
+.l-style{
+    background: #F04037;
+    border: 1px solid #C31A12;
+    border-radius: 5px;
+    padding: 14px 45px;
+    color: #fff;
+}
+.l-style:hover{
+    color: #F04037 ;
+    background: #fff;
 }
