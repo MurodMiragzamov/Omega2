@@ -288,3 +288,29 @@ right: 450px;
    box-shadow: 0px 32px 34px rgba(65, 62, 101, 0.296766);
    
 }
+.save-header{
+    color: #19191B;
+    font-size: 60px;
+    line-height: 70px;
+    width: 570px;
+    margin-bottom: 40px;
+}
+.p-save{
+    color: #696871;
+    font-size: 21px;
+    line-height: 39px;
+    width: 545px;
+    margin-bottom: 60px;
+}
+.save-img{
+    position: relative;
+}
+.girl-mac{
+    position: absolute;
+    bottom: -230px;
+    left: 600px;
+}
+.s5{
+    background: #F2F2F2;
+    padding: 200px;
+}
