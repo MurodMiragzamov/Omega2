@@ -8,7 +8,9 @@
 html{
     scroll-behavior: smooth;
 }
-
+body{
+    height: 3000px;
+}
 .girl{
    position: relative;
   
@@ -92,12 +94,14 @@ margin: 0 auto;
     margin-bottom: 50px;
 }
 .input1{
+    width: 374px;
     padding: 10px 0;
     border: 1px solid #fff;
     font-size: 18px;
     color: #696871;
     padding-left: 50px;
     padding-right: 124px;
+    outline: none;
     
 }
 .input-div{
@@ -109,15 +113,14 @@ margin: 0 auto;
     width: 563px;
     padding-bottom: 8px;
     padding-top: 8px;
+    margin-bottom: 204px;
 }
 .iicon{
     position: absolute;
     left: 15px;
     top:23px;
 }
-.input-link{
-   
-}
+
 .mac{
     position: absolute;
     right: 450px;
@@ -128,10 +131,75 @@ margin: 0 auto;
     background: #F04037;
     border: 1px solid #C31A12;
     border-radius: 5px;
-    padding: 14px 45px;
+    padding: 16px 52px;
     color: #fff;
+    outline: none;
+}
+.s1{
+  
+    background: #413E65;
+    padding: 50px;
+    padding-left: 50px;
 }
 .l-style:hover{
     color: #F04037 ;
     background: #fff;
+}
+.build_list{
+    margin-left: 150px;
+}
+.build-item{
+    
+    position: relative;
+    width: 395px;
+    background: #fff;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+
+}
+.build-img{
+    position: absolute;
+    top: 45px;
+}
+.build-header{
+    margin-bottom: 20px;
+    padding-top: 10px;
+    width: 199px;
+    color: #19191B;
+    font-size: 24px;
+    line-height: 28px;
+}
+.build-p{
+    padding-bottom: 10px;
+    color: #696871;
+    line-height: 28px;
+    font-size: 16px;
+    width: 260px;
+}
+.bu-vs{
+    margin-left: 100px;
+}
+.s1 .container{
+    padding: 100px 0;
+    display: flex;
+    align-items: center;
+    
+}
+.build-h3{
+    color: #FFFFFF;
+    font-size: 60px;
+    line-height: 70px;
+    width: 507px;
+}
+.b-p{
+    color: rgba(255, 255, 255, 0.702469);
+    font-size: 21px;
+    line-height: 39px;
+    width: 530px;
+    margin: 50px 0;
+    padding-bottom: 20px;
+}
+.build-div{
+    margin-left: 200px;
 }
