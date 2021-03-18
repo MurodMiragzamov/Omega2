@@ -248,6 +248,7 @@ right: 450px;
     line-height: 70px;
     width: 449px;
     margin: 0 auto;
+    margin-bottom:40px;
 }
 .div{
     display: flex;
