@@ -203,3 +203,37 @@ margin: 0 auto;
 .build-div{
     margin-left: 200px;
 }
+
+.human-img{
+    position: relative;
+}
+.human{
+position: absolute;
+top: -566px;
+right: -159px;
+}
+.human-mac{
+position: absolute;
+bottom: -235px;
+right: 450px;
+}
+.k-header{
+    margin-top: 20px;
+    padding-bottom: 50px;
+    color: #19191B;
+    font-size: 60px;
+    line-height: 70px;
+    width: 555px;
+}
+.p-human{
+    padding-bottom: 70px;
+    color: #696871;
+    font-size: 21px;
+    line-height: 39px;
+    width: 521px;
+}
+.s2{
+    background: #F2F2F2;
+    padding: 150px;
+    padding-bottom: 191px;
+}
