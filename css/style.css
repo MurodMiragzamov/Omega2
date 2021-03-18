@@ -8,9 +8,7 @@
 html{
     scroll-behavior: smooth;
 }
-body{
-    height: 3000px;
-}
+
 .girl{
    position: relative;
   
@@ -236,4 +234,56 @@ right: 450px;
     background: #F2F2F2;
     padding: 150px;
     padding-bottom: 191px;
+}
+.s4{
+    background: #F7F7FB;
+}
+.s4{
+    padding: 100px 0;
+}
+.header-center{
+  
+    color: #19191B;
+    font-size: 60px;
+    line-height: 70px;
+    width: 449px;
+    margin: 0 auto;
+}
+.div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.s4-item{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.s4-list{
+    position: relative;
+    margin: 20px;
+    color: #19191B;
+    font-size: 21px;
+    line-height: 25px;
+    width: 350px;
+    background: #FFFFFF;
+    border: 1px solid #EAE9F2;
+    border-radius: 10px;
+    padding:40px 25px ;
+}
+.s4-list img{
+    position: absolute;
+    top: 13px;
+    left: 13px;
+}
+.s4-p{
+    position: absolute;
+    width: 244px;
+    top: 28px;
+    left: 83px;
+
+}
+.s4-list:hover{
+   box-shadow: 0px 32px 34px rgba(65, 62, 101, 0.296766);
+   
 }
