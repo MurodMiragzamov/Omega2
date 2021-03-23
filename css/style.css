@@ -13,7 +13,7 @@
 html{
     scroll-behavior: smooth;
 }
-body > .big-container{
+.bg-section{
     background-image: url("../img/BG.png");
     background-size:cover;
     background-position:100%;
