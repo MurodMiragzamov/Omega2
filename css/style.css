@@ -778,3 +778,94 @@ h4{
         width: 450px;
     }
 }
+@media( max-width:720px){
+    .big-container{
+        width: 100%;
+    }
+   .nav-h2{
+       width: 100%;
+   }
+   .nav-p{
+       width: 100%;
+   }
+   .input-div{
+       width: 100%;
+   }
+   .input-link{
+       width: 22%;
+   }
+    .container{
+        width: 600px;
+    }
+    .save-header{
+        width: 500px;
+    }
+   
+}
+@media( max-width:620px){
+    .big-container{
+        width: 100%;
+    }
+    .container{
+        width: 500px;
+    }
+    .save-header{
+        width: 500px;
+    }
+}
+@media( max-width:520px){
+    .big-container{
+        width: 100%;
+    }
+    .input1{
+        text-align: center;
+        padding-left: 140px;
+    }
+    .build-div{
+        width: 90%;
+     
+    }
+    .build-header{
+        width: 100%;
+  
+    }
+    .b-p{
+        width: 250px;
+    }
+    .build-header{
+        width: 150px;
+    }
+    .build-p{
+        width: 90%;
+      
+    }
+    .input-link{
+        width: 100%;
+    }
+    .input-div{
+        width: 100%;
+        margin-bottom: 0;
+    }
+    .girl .container{
+        padding-bottom: 50px;
+    }
+    .container{
+        width: 400px;
+    }
+    .save-header{
+        width: 500px;
+    }
+   
+}
+@media( max-width:420px){
+    .big-container{
+        width: 100%;
+    }
+    .container{
+        width: 300px;
+    }
+    .save-header{
+        width: 500px;
+    }
+   
+}
