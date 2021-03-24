@@ -493,20 +493,51 @@ h4{
     .big-container{
         width: 1415px;
     }
+   
+    .oval39{
+        right: 25px;
+    }
+    .mac{
+        position: absolute;
+        right: 400px;
+        top: 90px;
+    
+    }
 }
 @media( max-width:1435px){
     .big-container{
         width: 1315px;
+    }
+ 
+    .mac{
+        position: absolute;
+        right: 350px;
+        top: 90px;
+    
     }
 }
 @media( max-width:1335px){
     .big-container{
         width: 1215px;
     }
+ 
+    .mac{
+        position: absolute;
+        right: 300px;
+        top: 90px;
+    
+    }
 }
 @media( max-width:1235px){
     .big-container{
         width: 1115px;
+    }
+ 
+    .mac{
+        position: absolute;
+        right: 250px;
+        top: 90px;
+    
     }
 }
 @media( max-width:1135px){
@@ -519,11 +550,21 @@ h4{
     .container{
         width: 1100px;
     }
+    .big-container{
+        background: #CFDCE1;
+    }
+    .mac{
+        top: -1000px;
+    }
+    .oval39{
+        top: 300px;
+    }
 }
 @media( max-width:1120px){
     .container{
         width: 1000px;
     }
+ 
 }
 @media( max-width:1020px){
     .container{
