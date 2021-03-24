@@ -495,6 +495,9 @@ h4{
     line-height: 38px;
     width: 210px;
 }
+.soc{
+    margin-top: 30px;
+}
 .omg{
     width: 270px;
    
@@ -525,12 +528,10 @@ h4{
     .big-container{
         width: 1315px;
     }
-    .human{
-        width: 700px;
+    .s2{
+        background-image: none;
     }
-    .human{
-        top: -4000px;
-    }
+    
     .human-mac{
         top: -4000px;
     }
@@ -539,11 +540,13 @@ h4{
 
     }
     .k50{
-        margin-left: 200px;
+        margin-left: 150px;
     }
+    
     .p-human{
         width: 700px;
     }
+   
  
     .mac{
         position: absolute;
@@ -559,6 +562,10 @@ h4{
    .s4-p{
        width: 300px;
    }
+   .footer .container{
+       flex-wrap: wrap;
+   }
+   
     .build-div{
         width:450px ;
     }
@@ -575,12 +582,24 @@ h4{
     .b-p{
         width: 400px;
     }
- 
+    .s7 .container{
+        padding-left: 550px;
+    }
+     
     .mac{
         position: absolute;
         right: 300px;
         top: 90px;
     
+    }
+    .girl-mac{
+        top: -5000px;
+    }
+    .save-header{
+        width: 1000px;
+    }
+    .p-save{
+        width: 700px;
     }
 }
 @media( max-width:1235px){
@@ -590,8 +609,16 @@ h4{
     .s4-p{
         width: 200px;
     }
-   
-   
+
+    .h-man{
+        top: -5000px;
+    }
+    .s7 .container{
+        padding-left: 180px;
+        
+    }
+     
+ 
     .build-h3{
         width: 400px;
 
@@ -631,12 +658,29 @@ h4{
     .oval39{
         top: 300px;
     }
+    .customs-item{
+        flex-wrap: wrap;
+    }
+    .s7 .container{
+        padding-left: 100px;
+        
+    }
+    .customs-list{
+        margin-bottom: 20px;
+    }
     
 }
 @media( max-width:1120px){
     .container{
         width: 1000px;
     }
+    .save-header{
+        width: 700px;
+    }
+    .p-save{
+        width: 650px;
+    }
+  
     .k-header{
         width: 500px;
 
@@ -656,6 +700,16 @@ h4{
 @media( max-width:1020px){
     .container{
         width: 900px;
+    }
+    .s7 .container{
+        padding-left: 50px;
+        
+    }
+    .save-header{
+        width: 600px;
+    }
+    .p-save{
+        width: 550px;
     }
     .k-header{
         width: 400px;
@@ -678,5 +732,11 @@ h4{
 @media( max-width:820px){
     .container{
         width: 700px;
+    }
+    .save-header{
+        width: 500px;
+    }
+    .p-save{
+        width: 450px;
     }
 }
