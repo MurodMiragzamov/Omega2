@@ -9,6 +9,7 @@
     width: 1515px;
     min-height: 800px;
     margin: 0 auto;
+   
 }
 html{
     scroll-behavior: smooth;
@@ -271,7 +272,7 @@ right: 450px;
     background-image: url('../img/IMG.png');
     background-repeat: no-repeat;
     background-size: contain;
-    background-position: 780px 0;
+    background-position: center right;
     
 }
 .div{
@@ -495,6 +496,9 @@ h4{
     line-height: 38px;
     width: 210px;
 }
+.s1,.s2,.s3,.s4,.s5,.s6,.s7{
+    overflow: hidden;
+}
 .soc{
     margin-top: 30px;
 }
@@ -510,7 +514,7 @@ h4{
 }
 @media( max-width:1535px){
     .big-container{
-        width: 1415px;
+        width: 100%px;
     }
    
     .oval39{
@@ -526,7 +530,7 @@ h4{
 }
 @media( max-width:1435px){
     .big-container{
-        width: 1315px;
+        width: 100%;
     }
     .s2{
         background-image: none;
@@ -557,7 +561,7 @@ h4{
 }
 @media( max-width:1335px){
     .big-container{
-        width: 1215px;
+        width: 100%px;
     }
    .s4-p{
        width: 300px;
@@ -593,7 +597,7 @@ h4{
     
     }
     .girl-mac{
-        top: -5000px;
+        top: -7000px;
     }
     .save-header{
         width: 1000px;
@@ -604,14 +608,14 @@ h4{
 }
 @media( max-width:1235px){
     .big-container{
-        width: 1115px;
+        width: 100%;
     }
     .s4-p{
         width: 200px;
     }
-
+ 
     .h-man{
-        top: -5000px;
+        left: -3000px;
     }
     .s7 .container{
         padding-left: 180px;
@@ -637,7 +641,7 @@ h4{
 }
 @media( max-width:1135px){
     .big-container{
-        width: 1015px;
+        width: 100%;
     }
     .s4-p{
         width: 150px;
@@ -646,8 +650,14 @@ h4{
 }
 
 @media( max-width:1220px){
+    .big-container{
+        width: 100%px;
+    }
     .container{
         width: 1100px;
+    }
+    .s4-item{
+        flex-wrap: wrap;
     }
     .big-container{
         background: #CFDCE1;
@@ -657,6 +667,7 @@ h4{
     }
     .oval39{
         top: 300px;
+        right: 150px;
     }
     .customs-item{
         flex-wrap: wrap;
@@ -671,6 +682,9 @@ h4{
     
 }
 @media( max-width:1120px){
+    .big-container{
+        width: 100%px;
+    }
     .container{
         width: 1000px;
     }
@@ -680,16 +694,17 @@ h4{
     .p-save{
         width: 650px;
     }
+   
   
     .k-header{
-        width: 500px;
+        width: 600px;
 
     }
     .k50{
         margin-left: 50px;
     }
     .p-human{
-        width: 500px;
+        width: 600px;
     }
     .build-div{
         margin-left: 40px;
@@ -698,6 +713,9 @@ h4{
  
 }
 @media( max-width:1020px){
+    .big-container{
+        width:100%;
+    }
     .container{
         width: 900px;
     }
@@ -705,6 +723,9 @@ h4{
         padding-left: 50px;
         
     }
+    .oval39{
+        top: -9000px;
+       }
     .save-header{
         width: 600px;
     }
@@ -725,11 +746,28 @@ h4{
 }
 
 @media( max-width:920px){
+    .big-container{
+        width: 100%;
+    }
+    .s1 .container{
+        flex-wrap: wrap;
+    
+    }
+    .build-list{
+        margin-left: 120px;
+    }
+    .build-div{
+        margin-left: 135px;
+        margin-top: 40px;
+    }
     .container{
         width: 800px;
     }
 }
 @media( max-width:820px){
+    .big-container{
+        width: 100%;
+    }
     .container{
         width: 700px;
     }
