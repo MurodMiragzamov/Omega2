@@ -497,6 +497,7 @@ h4{
     .oval39{
         right: 25px;
     }
+   
     .mac{
         position: absolute;
         right: 400px;
@@ -507,6 +508,25 @@ h4{
 @media( max-width:1435px){
     .big-container{
         width: 1315px;
+    }
+    .human{
+        width: 700px;
+    }
+    .human{
+        top: -4000px;
+    }
+    .human-mac{
+        top: -4000px;
+    }
+    .k-header{
+        width: 700px;
+
+    }
+    .k50{
+        margin-left: 200px;
+    }
+    .p-human{
+        width: 700px;
     }
  
     .mac{
@@ -520,6 +540,25 @@ h4{
     .big-container{
         width: 1215px;
     }
+   .s4-p{
+       width: 300px;
+   }
+    .build-div{
+        width:450px ;
+    }
+    .build-item{
+        width: 350px;
+    }
+    .build-p{
+        width: 200px;
+    }
+    .build-h3{
+        width: 400px;
+
+    }
+    .b-p{
+        width: 400px;
+    }
  
     .mac{
         position: absolute;
@@ -532,6 +571,19 @@ h4{
     .big-container{
         width: 1115px;
     }
+    .s4-p{
+        width: 200px;
+    }
+   
+   
+    .build-h3{
+        width: 400px;
+
+    }
+    .b-p{
+        width: 400px;
+    }
+
  
     .mac{
         position: absolute;
@@ -544,6 +596,10 @@ h4{
     .big-container{
         width: 1015px;
     }
+    .s4-p{
+        width: 150px;
+    }
+  
 }
 
 @media( max-width:1220px){
@@ -559,18 +615,45 @@ h4{
     .oval39{
         top: 300px;
     }
+    
 }
 @media( max-width:1120px){
     .container{
         width: 1000px;
     }
+    .k-header{
+        width: 500px;
+
+    }
+    .k50{
+        margin-left: 50px;
+    }
+    .p-human{
+        width: 500px;
+    }
+    .build-div{
+        margin-left: 40px;
+    }
+ 
  
 }
 @media( max-width:1020px){
     .container{
         width: 900px;
     }
+    .k-header{
+        width: 400px;
+
+    }
+    .k50{
+        margin-left: 50px;
+    }
+    .p-human{
+        width: 400px;
+    }
+ 
 }
+
 @media( max-width:920px){
     .container{
         width: 800px;
