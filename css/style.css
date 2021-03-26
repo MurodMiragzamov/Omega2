@@ -798,7 +798,7 @@ h4{
         width: 600px;
     }
     .save-header{
-        width: 500px;
+        width: 400px;
     }
    
 }
@@ -810,8 +810,24 @@ h4{
         width: 500px;
     }
     .save-header{
-        width: 500px;
+        width: 400px;
     }
+    .s6{
+        padding-left: 0;
+    }
+   .customer, .custom-p{
+       width: 280px;
+       text-align:start;
+   }
+   .customs-list{
+       width: 320px;
+   }
+   .customs-p{
+       width: 250px;
+   }
+   .customs-item{
+       margin-left: 50px;
+   }
 }
 @media( max-width:520px){
     .big-container{
@@ -853,19 +869,136 @@ h4{
         width: 400px;
     }
     .save-header{
-        width: 500px;
+        width: 300px;
     }
-   
+    .s5{
+        padding-left: 20px;
+    }
+    .save-header{
+        width: 300px;
+    }
+    .p-save{
+        width: 300px;
+    }
+    .header-div{
+        padding-left: 60px;
+        width: 250px;
+    }
+
+    .s6{
+        padding-left: 0;
+    }
+   .customer, .custom-p{
+       width: 280px;
+       text-align:start;
+   }
+   .customs-list{
+       width: 320px;
+   }
+   .customs-p{
+       width: 250px;
+   }
+   .customs-item{
+       margin-left: 50px;
+   }
+    
 }
 @media( max-width:420px){
     .big-container{
-        width: 100%;
+        width: 350px;
     }
+    .nav-link{
+        margin-left: 30px;
+    }
+    .input1{
+        width: 200px;
+        padding-left: 35px;
+    }
+   .build-list{
+       margin-left: 0;
+   }
+   .build-item{
+       width: 270px;
+   }
+   .build-img{
+       top: 100px;
+   }
     .container{
         width: 300px;
     }
     .save-header{
         width: 500px;
     }
-   
+    .build-div{
+        margin-left: 0;
+    }
+    .build-h3{
+        width: 300px;
+    }
+    .b-p{
+        margin-bottom: 20px;
+    }
+    .s2{
+        padding-left: 0;
+    }
+    .k-header{
+        width: 300px;
+    }
+    .p-human{
+        width: 300px;
+        
+    }
+    .s5{
+        padding-left: 20px;
+    }
+    .save-header{
+        width: 300px;
+    }
+    .p-save{
+        width: 300px;
+    }
+    .header-div{
+        padding-left: 60px;
+        width: 250px;
+    }
+    .s6{
+        padding-left: 0;
+    }
+   .customer, .custom-p{
+       width: 280px;
+       text-align:start;
+   }
+   .customs-list{
+       width: 320px;
+   }
+   .customs-p{
+       width: 250px;
+   }
+   .customs-item{
+       margin-left: 50px;
+   }
+   .s7{
+       padding-left: 0;
+   }
+   .inp-h2, .inp-p{
+       width: 300px;
+   }
+   .input2{
+       width: 280px;
+       padding-left: 50px;
+   }
+   .inp-link{
+       width: 280px;
+   }
+   .omg{
+       width: 200px;
+   }
+   .footer-list{
+       margin-bottom: 70px;
+   }
+  .s4-p{
+      margin-bottom: 10;
+      position: absolute;
+      top: 15px;
+  }
 }
