@@ -806,6 +806,7 @@ h4{
     .bg-section{
 
         background-image: none;
+        background: #CFDCE1;
     }
     .big-container{
         width: 100%;
